@@ -14,4 +14,4 @@ s.send(MESSAGE.encode('utf-8'))
 # data = s.recv(BUFFER_SIZE)
 s.close()
 
-print("received data:", data)
+#print("received data:", data)
