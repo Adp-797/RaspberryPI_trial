@@ -1,4 +1,4 @@
-import serial
+from serial import Serial
  
 # Enable USB Communication
 ser = serial.Serial('/dev/ttyUSB0', 9600,timeout=.5)
