@@ -3,7 +3,7 @@
 
 import socket
 
-TCP_IP = '<192.168.0.100>' #Server Address
+TCP_IP = '192.168.0.100' #Server Address
 TCP_PORT = 5005
 BUFFER_SIZE = 1024
 MESSAGE = "Hello from "+ TCP_IP
@@ -14,4 +14,4 @@ s.send(MESSAGE)
 # data = s.recv(BUFFER_SIZE)
 s.close()
 
-print("received data:", data)
+#print("received data:", data)
